@@ -9,18 +9,10 @@ http://docs.docker.io/en/latest/installation/ubuntulinux/
 
 and clone the repo, and enter the following command:
 
+sudo docker build -t <user>/docker-opencv-contrib:v1 .
+
+the command above will download opencv and opencv-contrib from the github at the lastest commit and compile it
+
+To run:
+sudo docker run -t -i <user>/docker-opencv-contrib:v1 /bin/bash
 ```
-sudo docker build .
-```
-
-and you are ready to go!
-
-you can also pull the docker image from [index.docker.io](http://index.docker.io)
-
-https://index.docker.io/u/chilijung/docker-opencv/
-
-```
-sudo docker pull chilijung/docker-opencv
-```
-
-and your docker is set!
