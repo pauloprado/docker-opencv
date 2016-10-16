@@ -1,7 +1,7 @@
-docker-opencv
+docker-opencv-contrib
 =============
 
-OpenCV on Docker, setting up the enviornment of openCV using docker.
+OpenCV on Docker, setting up the environment of OpenCV using docker.
 
 First install docker on your computer 
 
